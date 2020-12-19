@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="shopping-cart">
+            <header>
+                <p>Shopping Cart</p>
+                <p>
+                    <span id="itemsCount">3</span> Items
+                </p>
+            </header>
+
+            <!-- Item 1-->
+            <section class="item">
+                <section class="item-description">
+                    <img src="res/téléchargement.jfif" alt="Huawei-P40-Pro-Plus">
+                    <div class="description" id="0">
+                        <p>lenovo idead pad</p>
+                        <p>pc portable</p>
+                        <a href="#"  class="deleteLink">Supprimer</a>
+                    </div>
+                </section>
+                <section class="item-qte" id="0">
+                    <button class="minus">-</button>
+                    <p class="qte">1</p>
+                    <button class="add">+</button>
+                </section>
+                <section class="item-unit-price">
+                    <p>1199.00</p><span>&nbsp;€</span>
+                </section>
+                <section class="item-total-price">
+                    <p>1199.00</p><span>&nbsp;€</span>
+                </section>
+                <section class="like-item">
+                    <img src="res/heart-icon-32.png" alt="like ICON">
+                </section>
+            </section>
+
+            <!--Item 2-->
+            <section class="item" id="1">
+                <section class="item-description">
+                    <img src="res/pc-portable-msi-gf63-thin-9rcx-678xf-tunisie.jpg" alt="iphone12">
+                    <div class="description" id="1">
+                        <p>msi</p>
+                        <p>PC PORTABLE MSI GF63 THIN 9RCX-678XF</p>
+                        <a href="#" class="deleteLink">Supprimer</a>
+                    </div>
+                </section>
+                <section class="item-qte" id="1">
+                    <button class="minus">-</button>
+                    <p class="qte">1</p>
+                    <button class="add">+</button>
+                </section>
+                <section class="item-unit-price">
+                    <p>1079.00</p><span>&nbsp;€</span>
+                </section>
+                <section class="item-total-price">
+                    <p>1079.00</p><span>&nbsp;€</span>
+                </section>
+                <section class="like-item">
+                    <img src="res/heart-icon-32.png" alt="like ICON">
+                </section>
+            </section>
+
+            <!--Item 3-->
+            <section class="item">
+                <section class="item-description">
+                    <img src="res/pc-gamer-titan-lumina-3-ryzen-5-3400g-8gb-tunisie.jpg" alt="PS5">
+                    <div class="description" id="2">
+                        <p>PC GAMER TITAN</p>
+                        <p>PC Gamer Titan Lumina 3 - Ryzen 5 * 3400G * 8GB</p>
+                        <a href="#" class="deleteLink">Supprimer</a>
+                    </div>
+                </section>
+                <section class="item-qte" id="2">
+                    <button class="minus">-</button>
+                    <p class="qte">1</p>
+                    <button class="add">+</button>
+                </section>
+                <section class="item-unit-price">
+                    <p>499.99</p><span>&nbsp;€</span>
+                </section>
+                <section class="item-total-price">
+                    <p>499.99</p><span>&nbsp;€</span>
+                </section>
+                <section class="like-item">
+                    <img src="res/heart-icon-32.png" alt="like ICON">
+                </section>
+            </section>
+
+
+            <!--Sum-->
+            <section class="grid-overwrite">
+                <section class="all-items-total-price">
+                    <p id="total-Price">0.00<span>&nbsp;€</span>
+                </section>
+            </section>
+
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

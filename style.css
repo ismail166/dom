@@ -1,0 +1,57 @@
+
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.shopping-cart{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+.item-description{
+    display: flex;
+    align-items: center;
+    border: 1px dashed #000000;
+}
+
+.item-description img{
+    width: 20%;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.item-qte, .item-unit-price, .item-total-price, .all-items-total-price, .like-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #000000;
+}
+
+.qte{
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.grid-overwrite{
+    grid-template-columns: 1fr;
+}
+
+.deleteLink{
+    text-decoration: none;
+}
